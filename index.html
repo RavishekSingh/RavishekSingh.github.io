@@ -1,166 +1,259 @@
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ravishek-Portfolio</title>
-    <style>
-      * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-      }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="./data/download-modified.png">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <!-- =====BOX ICONS===== -->
+        <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet">
+  
+        <title>Ravishek_Singh</title>
+      </head>
 
-      body {
-        background-color: azure;
-      }
-      #navbar {
-        display: flex;
-        justify-content: end;
-        background-color: rgb(191, 191, 227);
-      }
-      #navbar > h3 {
-        font-size: 25px;
-        margin-right: 20px;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      @media all and (min-width: 767px) and (max-width: 1024px) {
-        #navbar > h3 {
-          font-size: 17.5px;
-          margin-right: 16px;
-        }
-        @media all and (min-width: 340px) and (max-width: 766px) {
-          #navbar > h3 {
-            font-size: 15px;
-            margin-right: 12px;
-          }
-        }
-      }
-      #top {
-        text-align: center;
-        margin-bottom: 30px;
-        background-color: #6213eb;
-        display: flex;
-        justify-content: space-evenly;
-        padding: 2%;
-      }
-      #pic > img {
-        width: 50%;
-      }
-      #about {
-        width: 40%;
-        text-align: center;
-      }
-      h1 {
-        color: whitesmoke;
-      }
-      p {
-        font-size: 35px;
-        font-weight: bolder;
-        color: whitesmoke;
-        margin-top: 1%;
-      }
-      span {
-        font-size: 25px;
-        font-weight: bolder;
-        color: whitesmoke;
-        margin-top: 10%;
-      }
-      span + p {
-        font-size: 25px;
-        font-weight: bolder;
-        color: whitesmoke;
-      }
-      #tech {
-        background-color: antiquewhite;
-        border: 1px solid red;
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-      }
-      #tech div {
-        border: 1px solid yellow;
-      }
-      #tech img {
-        width: 40%;
-      }
-      #prj{
-        display: flex;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="navbar">
-      <h3>Home</h3>
-      <h3>About Me</h3>
-      <h3>Projects</h3>
-      <h3>Contact Me</h3>
-    </div>
-    <div id="top">
-      <div id="pic">
-        <img src="profilepic.png" alt="" />
-        <p>Ravishek Kumar Singh</p>
-        <p>Full Stack Web Developer</p>
-      </div>
-      <div id="about">
-        <h1>Hi, All</h1>
-        <span></span>
-        <p>
-          I'm a task driven and an innovative problem solver, I am building my
-          skills as a Full Stack Web Developer with a focus on the Backend.
-        </p>
-      </div>
-    </div>
-    <div id="tech">
-      <div><img src="html.png" alt="" /></div>
-      <div><img src="css.png" alt="" /></div>
-      <div><img src="js.png" alt="" /></div>
-      <div><img src="java.png" alt="" /></div>
-      <div><img src="dsa.png" alt="" /></div>
-      <div><img src="git.png" alt="" /></div>
-    </div>
+<body data-new-gr-c-s-check-loaded="14.1079.0" data-gr-ext-installed="" style="height: 100%; background: url(./data/lg.jpg);">
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <!-- &#60; RKS/&#62; -->
+          <a href="#home" class="nav-logo"><img src="./data/download-modified.png" alt=""></a>
+        </div>
 
-    <div id="prj">
-      <h1>Projects</h1>
-      <div id="p1">
-        <div id="text">
-          <h2>PharmEasy - Clone Project</h2>
-          <h3>Tools : HTML | CSS | Javascript</h3>
-          <h4>Features</h4>
-          <li>
-            A collaborative project built by a team of 5,in 5 days.
-          </li>
-          <li>Users can read,search, and sort products.</li>
-          <div id="buttons">
-        <button><a href="" target="_blank">Deployed Link</a></button>
-            <button><a href="" target="_blank">Github Link</a></button>
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#home" class="nav-link home active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid section" id="home">
+        <div class="home-data">
+          <h2 class="home-title" data-sr-id="0" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;">
+            Hi,<br>I'm <span class="home-title-color">Ravishek Singh</span><br>
+            Full Stack Developer
+          </h2>
+
+          <a href="./data/Ravishek_Resume.pdf" target="_blank" class="button" data-sr-id="2" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.2s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.2s;">Download Resume</a>
+        </div>
+
+       
+
+        <div class="home-img" data-sr-id="11" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+          <img src="./data/pic.png" alt="">
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container bd-grid">
+         
+
+          <div style="text-align: center">
+            <h2 class="about-subtitle" data-sr-id="15" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">  Hi, All</h2>
+            <p class="about-text" data-sr-id="16"  style="visibility: visible;color: black;font-weight:bolder; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+           
+            I'm a task driven and an innovative <br> problem solver, I am building my skills as a <br>
+             <span class="home-title-color">Full Stack Web Developer</span>  with a focus on the <span class="home-title-color">Backend.</span> 
+            </p>
+            <br>
+           
           </div>
         </div>
-        <div id="image">
-          <img src="img/pe.png" alt="">
-        </div>
-      </div>
-      <div id="p2">
-        <div id="text">
-          <h2>Envoy- Clone Project</h2>
-          <h3>Tools : HTML | CSS | Javascript</h3>
-          <h4>Features</h4>
-          <li>
-            A collaborative project built by a team of 5,in 5 days.
-          </li>
-          <li>Users can Signup, Login.</li>
-          <li>Users can Search product .</li>
-          <li>Users can Sort and filter the products.</li>
-          <li>Users can Checkout and can do Payment.</li>
-          <div id="buttons">
-           <button><a href="" target="_blank">Deployed Link</a> </button> 
-            <button><a href="" target="_blank">Github Link</a></button>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-container bd-grid">
+          <div>
+            <h2 class="skills-subtitle" data-sr-id="17" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;"">Tech Skills</h2>
+            <div class="skills-data" data-sr-id="20" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+              <div class="skills-names" style="width: 500px;justify-content: space-around; ">
+                <img style="width: 30px;" src="./data/html.png" alt="">
+                <span class="skills-name" >HTML</span>
+              </div>
+              
+            </div>
+            <div class="skills-data" data-sr-id="21" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+              <div class="skills-names" style="width: 500px;justify-content: space-around; ">
+                <img style="width: 30px;" src="./data/css.png" alt="">
+                <span class="skills-name">CSS</span>
+              </div>
+              
+            </div>
+            <div class="skills-data" data-sr-id="22"style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+              <div class="skills-names" style="width: 500px;justify-content: space-around; ">
+                <img style="width: 30px;" src="./data/js.png" alt="">
+                <span class="skills-name">JAVASCRIPT</span>
+              </div>
+             
+            </div>
+            <div class="skills-data" data-sr-id="23" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+              <div class="skills-names" style="width: 500px;justify-content: space-around; ">
+              
+                <img style="width: 30px;" src="./data/java.png" alt="">
+                <span class="skills-name">JAVA</span>
+              </div>
+              
+            </div>
+            <div class="skills-data" data-sr-id="24" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+              <div class="skills-names" style="width: 500px;justify-content: space-around; ">
+                <img style="width: 30px;" src="./data/git.png" alt="">
+                <span class="skills-name">GITHUB</span>
+              </div>
+             
+            </div>
+            <div class="skills-data" data-sr-id="25" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+              <div class="skills-names" style="width: 500px;justify-content: space-around; ">
+                <img style="width: 30px;" src="./data/dsa.png" alt="">
+                <span class="skills-name">DSA</span>
+              </div>
+              
+            </div>
+          
           </div>
+          
+
+          
         </div>
-        <div id="image">
-          <img src="ev.png" alt="">
+      </section>
+
+      <!--===== Projects =====-->
+      <section class="projects section" id="projects">
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-container">
+          <div class="project-img" data-sr-id="32" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+            <img src="./data/pe.jpg" alt="" style="margin:auto; margin: top 20px; padding: 20px; max-width: 100%;">
+            <p class="project-title">PharmEasy Clone</p>
+            <p class="project-subtitle">
+                PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC
+                pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs. <br>
+              <br>
+              A collaborative project, built in 5 days by a team of 4 members.
+             <br>
+              <br>HTML | CSS | JS
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/gauravrai2783/pharmeasy-unit-2-" target="_blank" class="small-btn button" data-sr-id="3" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a href="https://delicate-hotteok-7a4631.netlify.app/" target="_blank" class="small-btn button" data-sr-id="4" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-img" data-sr-id="33" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+            <img src="./data/ev.jpg" alt="" style="margin:auto; margin: top 20px; padding: 20px; max-width: 100%;">
+            <p class="project-title">Envoy Clone</p>
+            <p class="project-subtitle">
+                Envoy helps you handle everything that comes through your company’s front door. But your work doesn't end at the lobby and neither does ours.
+                We believe your office should work on your behalf, takingcare of the details you'd rather forget so you can focus on more meaningful work.
+                That’s why we’re building smart tools, woven seamlessly throughout your workplace, that lessen your workload and brighten your day. <br>
+              <br>
+              A collaborative project, built in 5 days by a team of 4 members.
+              <br>
+              <br>HTML | CSS | JS
+            </p>
+            <div class="project-btns">
+              <a href="https://github.com/mukundjha1310/irritating-nerve-230" target="_blank" class="small-btn button" data-sr-id="5" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+                Code<i class="bx bxl-github"></i>
+              </a>
+              <a href="https://superb-cobbler-639ec1.netlify.app/" target="_blank" class="small-btn button" data-sr-id="6" style="visibility: visible; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transition: opacity 2s cubic-bezier(0.5, 0, 0, 1) 0.4s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0.4s;">
+                Live<i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+
+         
+
+          
         </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <!-- <section class="contact section" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container bd-grid">
+          <form action="" class="contact-form">
+            <input type="text" placeholder="Enter Your Name" class="contact-input" />
+            <input type="mail" placeholder="Enter Your Email" class="contact-input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact-input"
+            ></textarea>
+            <input
+              type="button"
+              value="Submit"
+              class="contact-button button"
+            />
+          </form>
+        </div>
+      </section> -->
+    </main>
+
+    <!--===== FOOTER + CONTACT=====-->
+    <footer class="footer section" id="contact">
+      <h2 class="section-title">Social Links</h2>
+      <p class="footer-title"></p>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/ravishek-singh/" target="_blank" class="footer-icon"><i class="bx bxl-linkedin">
+            <br>
+            LinkedIn</i></a>
+       
+        <a href="mailto:ravishingsingh1@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+            <br>
+            E-mail</i></a>
+       
       </div>
-    </div>
-  </body>
+      <p></p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="main.js"></script>
+  
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
