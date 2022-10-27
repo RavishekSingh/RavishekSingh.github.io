@@ -404,7 +404,8 @@ img.man-icons {
   cursor: pointer;
   margin-bottom: 0.5rem;
   width: 5px;
-  width: 500%;
+  width: 100%;
+
 }
 .project-img1 img:hover {
   transform: scale(1.1);
