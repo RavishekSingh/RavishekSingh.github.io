@@ -385,21 +385,18 @@ img.man-icons {
 
 #stat {
   margin: auto;
- margin-top: 5vw;
+  margin-top: 5vw;
   width: 98vw;
-  
 }
 #stat img {
   transition: 1s;
   cursor: pointer;
-  
 }
 #stat img:hover {
   transform: scale(1.1);
 }
 #st1 {
   margin: auto;
-  
 }
 /* ===== CONTACT =====*/
 .contact-input {
