@@ -382,35 +382,23 @@ img.man-icons {
 }
 
 /* ===== GitHub Stats =====*/
-.project-container1 {
-  gap: 2rem;
-  max-width: 1024px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  justify-content: space-evenly;
-  align-content: center;
-  column-gap: 2rem;
-  width: calc(100% - 2rem);
-  margin: auto;
-}
-.project-img1 {
-  border-radius: 0.5rem;
-  overflow: hidden;
 
-  width: 100%;
+#stat {
+  margin: auto;
+ margin-top: 5vw;
+  width: 80vw;
 }
-.project-img1 img {
+#stat img {
   transition: 1s;
   cursor: pointer;
   margin-bottom: 0.5rem;
-  width: 5px;
-  width: 100%;
-
 }
-.project-img1 img:hover {
+#stat img:hover {
   transform: scale(1.1);
 }
-
+#st1 {
+  margin: auto;
+}
 /* ===== CONTACT =====*/
 .contact-input {
   width: 100%;
