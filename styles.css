@@ -386,20 +386,20 @@ img.man-icons {
 #stat {
   margin: auto;
  margin-top: 5vw;
-  width: 90vw;
+  width: 98vw;
   
 }
 #stat img {
   transition: 1s;
   cursor: pointer;
-  margin-bottom: 0.5rem;
+  
 }
 #stat img:hover {
   transform: scale(1.1);
 }
 #st1 {
   margin: auto;
-  width: 100vw;
+  
 }
 /* ===== CONTACT =====*/
 .contact-input {
