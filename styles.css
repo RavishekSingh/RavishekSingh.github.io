@@ -386,7 +386,8 @@ img.man-icons {
 #stat {
   margin: auto;
  margin-top: 5vw;
-  width: 80vw;
+  width: 90vw;
+  
 }
 #stat img {
   transition: 1s;
@@ -398,6 +399,7 @@ img.man-icons {
 }
 #st1 {
   margin: auto;
+  width: 100vw;
 }
 /* ===== CONTACT =====*/
 .contact-input {
