@@ -152,8 +152,34 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
+  .home-data {
+    align-self: center;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px){
 }
 
+
+@media  screen and (max-width: 767px) and (min-width: 588px) {
+  
+  .home-data {
+    align-self: center;
+    text-align: center;
+    margin-top: -50%;
+  }
+  #img{
+   
+    display: block;
+    margin: auto;
+    margin-left: -200%;
+   
+  }
+  .skills-names{
+    justify-content: space-around;
+    text-align: center;
+  }
+}
 .nav-item {
   margin-bottom: var(--mb-4);
 }
@@ -213,6 +239,7 @@ img {
 
 .home-data {
   align-self: center;
+  
 }
 
 .home-title {
