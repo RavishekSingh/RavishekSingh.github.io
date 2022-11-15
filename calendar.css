@@ -1,0 +1,111 @@
+@media only screen and (min-width: 701px) {
+  #gitHubStyle {
+    margin: auto;
+    background-color: #1b222b;
+    color: white;
+    margin-top: 0.2vw;
+    padding: 0.5vw 4vw 0.5vw 4vw;
+  }
+  .contrib-number {
+    color: white;
+  }
+  .js-calendar-graph-svg {
+    margin-top: 3vw;
+  }
+  .float-right.color-fg-muted {
+    margin-bottom: 1.5vw;
+  }
+  text.ContributionCalendar-label {
+    color: white;
+  }
+  .ContributionCalendar-label {
+    color: white;
+    font-weight: 600;
+  }
+  .text-muted {
+    font-size: 1.8vw;
+    font-weight: 600;
+  }
+  .contrib-number {
+    color: white;
+    font-size: 2.8vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+  #githead {
+    text-align: center;
+    margin-top: 4vw;
+    font-weight: 600;
+    font-size: 3.1vw;
+    
+    background-color: #1b222b;
+    color: white;
+    padding: 1vw 1vw;
+    border: 2px solid rgb(204, 204, 204);
+  }
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) and (min-width: 0px) {
+  #gitHubStyle {
+    margin: auto;
+    background-color: #1b222b;
+    color: white;
+    margin-top: 0.2vw;
+    padding: 0.5vw 4vw 0.5vw 4vw;
+  }
+  .contrib-number {
+    color: white;
+  }
+  .js-calendar-graph-svg {
+    margin-top: 3vw;
+  }
+  .float-right.color-fg-muted {
+    margin-bottom: 1.5vw;
+  }
+  text.ContributionCalendar-label {
+    color: white;
+  }
+  .ContributionCalendar-label {
+    color: white;
+    font-weight: 600;
+  }
+  .text-muted {
+    font-size: 3vw;
+  }
+  .contrib-number {
+    color: white;
+    font-size: 4vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+  }
+  #githead {
+    text-align: center;
+    margin-top: 4vw;
+    font-weight: 900;
+    font-size: 4.2vw;
+    
+    background-color: #1b222b;
+    color: white;
+    padding: 1vw 1vw;
+    border: 2px solid rgb(204, 204, 204);
+  }
+  
+}
+
+
+#git_graph{
+  width: 95vw;
+  margin: auto;
+}
+#git_graph:hover{
+  width: 100vw;
+  margin: auto;
+  transition: 1s;
+}

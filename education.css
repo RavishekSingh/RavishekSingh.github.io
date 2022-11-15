@@ -1,0 +1,387 @@
+
+
+@media only screen and (min-width: 851px) {
+  #edu {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 4.5vw;
+    background: rgb(32, 49, 92);
+    background: linear-gradient(
+      60deg,
+      rgba(32, 49, 92, 1) 1%,
+      rgba(0, 112, 152, 1) 59%,
+      rgba(0, 172, 207, 1) 100%
+    );
+    padding-top: 2vw;
+    padding-bottom: 3vw;
+  }
+  #edu > h1 {
+    font-size: 3.4vw;
+    color: #ffffff;
+    
+  }
+  #edu > hr {
+    width: 13vw;
+    height: 0.35vw;
+    background-color: #ff9900;
+    color: #ff9900;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -2.55vw;
+    margin-bottom: 2vw;
+  }
+  #edu > div {
+    margin-top: 4vw;
+    width: 65vw;
+    margin: auto;
+  }
+
+  #dev {
+    display: grid;
+    grid-template-columns: 55% 35%;
+    column-gap: 10vw;
+    margin-left: -8vw;
+  }
+  #dev > div > img {
+    width: 110%;
+    margin-top: -4.5vw;
+  }
+  #dev > div:first-child {
+    text-align: left;
+    font-weight: bolder;
+    padding: 1vw;
+    line-height: 1vw;
+    
+    padding-left: 3vw;
+    background-color: rgba(255, 248, 243, 0.918);
+    color: rgb(43, 31, 73);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border-radius: 15%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 60%;
+    border-top-right-radius: 10px;
+  }
+  #dev > div:first-child:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+
+  #dev > div > h3 {
+    font-size: 3.2vw;
+    margin-bottom: 3.8vw;
+    
+  }
+
+  #dev > div > h4 {
+    font-size: 2.2vw;
+    line-height: 0.35vw;
+    color: rgb(12, 0, 82);
+  }
+
+  #bach {
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 45% 52%;
+    column-gap: 10vw;
+    margin-left: -5vw;
+  }
+  #bach > div > img {
+    width: 45%;
+    margin-top: -1vw;
+  }
+  #bach > div:last-child {
+    text-align: left;
+    font-size: 1.7vw;
+    box-sizing: border-box;
+    padding: 1vw;
+    line-height: 0.9vw;
+    padding-left: 3vw;
+    background-color: rgba(255, 248, 243, 0.918);
+    color: rgb(43, 31, 73);
+    box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 8px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border-radius: 15%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 10px;
+  }
+  #bach > div:last-child:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+
+  #bach > div > h3 {
+    font-size: 3.2vw;
+    margin-bottom: 3.6vw;
+    
+  }
+
+  #bach > div > h4 {
+    font-size: 2.2vw;
+    line-height: 0.35vw;
+    
+    color: rgb(12, 0, 82);
+  }
+}
+
+
+@media only screen and (min-width: 501px) and (max-width: 850px) {
+  #edu {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 4.5vw;
+    background: rgb(32, 49, 92);
+    background: linear-gradient(
+      60deg,
+      rgba(32, 49, 92, 1) 1%,
+      rgba(0, 112, 152, 1) 59%,
+      rgba(0, 172, 207, 1) 100%
+    );
+    padding-top: 2vw;
+    padding-bottom: 5vw;
+  }
+  #edu > h1 {
+    font-size: 4.2vw;
+    color: #ffffff;
+    
+  }
+  #edu > hr {
+    width: 16vw;
+    height: 0.5vw;
+    background-color: #ff9900;
+    color: #ff9900;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -3vw;
+    margin-bottom: 2vw;
+  }
+  #edu > div {
+    margin-top: 4vw;
+    width: 65vw;
+    margin: auto;
+  }
+
+  #dev {
+    display: grid;
+    grid-template-columns: 65% 46%;
+    column-gap: 2vw;
+    margin-left: -12vw;
+  }
+  #dev > div > img {
+    width: 110%;
+    margin-top: -4.5vw;
+  }
+  #dev > div:first-child {
+    text-align: left;
+    font-weight: bolder;
+    padding: 1vw;
+    line-height: 1vw;
+    
+    padding-left: 4vw;
+    background-color: rgba(255, 248, 243, 0.918);
+    color: rgb(43, 31, 73);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border-radius: 15%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 60%;
+    border-top-right-radius: 10px;
+  }
+  #dev > div:first-child:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+
+  #dev > div > h3 {
+    font-size: 4.2vw;
+    margin-bottom: 3vw;
+    line-height: 2.6vw;
+    
+  }
+
+  #dev > div > h4 {
+    font-size: 2.8vw;
+    line-height: 0.4vw;
+    
+    color: rgb(12, 0, 82);
+  }
+
+  #bach {
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 50% 62%;
+    column-gap: 3vw;
+    margin-left: -10vw;
+  }
+  #bach > div > img {
+    width: 55%;
+    margin-top: -1vw;
+  }
+  #bach > div:last-child {
+    text-align: left;
+    font-size: 1.7vw;
+    box-sizing: border-box;
+    padding: 1vw;
+    line-height: 0.9vw;
+    padding-left: 4vw;
+    background-color: rgba(255, 248, 243, 0.918);
+    color: rgb(43, 31, 73);
+    box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 8px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border-radius: 15%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 10px;
+  }
+  #bach > div:last-child:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+
+  #bach > div > h3 {
+    font-size: 4.2vw;
+    margin-bottom: 3vw;
+    line-height: 2.8vw;
+    
+  }
+
+  #bach > div > h4 {
+    font-size: 2.8vw;
+    line-height: 0.4vw;
+    
+    color: rgb(12, 0, 82);
+  }
+}
+
+
+
+@media only screen and (min-width: 0px) and (max-width: 500px) {
+  #edu {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: auto;
+    margin-top: 4.5vw;
+    background: rgb(32, 49, 92);
+    background: linear-gradient(
+      60deg,
+      rgba(32, 49, 92, 1) 1%,
+      rgba(0, 112, 152, 1) 59%,
+      rgba(0, 172, 207, 1) 100%
+    );
+    padding-top: 2vw;
+    padding-bottom: 8vw;
+  }
+  #edu > h1 {
+    font-size: 5.8vw;
+    color: #ffffff;
+    
+  }
+  #edu > hr {
+    width: 22vw;
+    height: 0.65vw;
+    background-color: #ff9900;
+    color: #ff9900;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -3.6vw;
+    margin-bottom: 4vw;
+  }
+  #edu > div {
+    margin-top: 4vw;
+    width: 65vw;
+    margin: auto;
+  }
+
+  #dev {
+    display: grid;
+    grid-template-columns: 72% 33%;
+    column-gap: 1vw;
+    margin-left: -11vw;
+  }
+  #dev > div > img {
+    width: 140%;
+    margin-top: -4.5vw;
+  }
+  #dev > div:first-child {
+    text-align: left;
+    font-weight: bolder;
+    padding: 1vw;
+    padding-left: 4vw;
+    background-color: rgba(255, 248, 243, 0.918);
+    color: rgb(43, 31, 73);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border-radius: 15%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 54%;
+    border-top-right-radius: 10px;
+  }
+  #dev > div:first-child:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+
+  #dev > div > h3 {
+    font-size: 4.8vw;
+    margin-bottom: 2.6vw;
+    line-height: 4vw;
+    
+  }
+
+  #dev > div > h4 {
+    font-size: 3.5vw;
+    line-height: 0.5vw;
+    
+    color: rgb(12, 0, 82);
+  }
+
+  #bach {
+    margin-top: 4vw;
+    display: grid;
+    grid-template-columns: 45% 67%;
+    column-gap: 1vw;
+    margin-left: -17vw;
+  }
+  #bach > div > img {
+    width: 65%;
+    margin-top: -1vw;
+  }
+  #bach > div:last-child {
+    text-align: left;
+    font-size: 1.7vw;
+    box-sizing: border-box;
+    padding: 1vw;
+    line-height: 0.9vw;
+    padding-left: 4vw;
+    background-color: rgba(255, 248, 243, 0.918);
+    color: rgb(43, 31, 73);
+    box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 8px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
+    border-radius: 15%;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 40%;
+    border-top-right-radius: 10px;
+  }
+  #bach > div:last-child:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+
+  #bach > div > h3 {
+    font-size: 4.6vw;
+    line-height: 6vw;
+    margin-bottom: 3vw;
+    
+  }
+
+  #bach > div > h4 {
+    font-size: 3.5vw;
+    line-height: 0.4vw;
+    
+    color: rgb(12, 0, 82);
+  }
+}

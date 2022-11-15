@@ -1,0 +1,432 @@
+@media only screen and (max-width: 550px) and (min-width: 0px) {
+  #projects_div {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin-top: 4vw;
+    text-align: center;
+    padding-top: 1.6vw;
+    padding-bottom: 3vw;
+  }
+  #projects {
+    width: 90vw;
+    margin: auto;
+    margin-top: 3vw;
+    display: grid;
+    row-gap: 2vw;
+  }
+  #projects_div > h1 {
+    font-size: 6.2vw;
+    color: rgb(0, 61, 73);
+    
+  }
+  #projects_div > hr {
+    width: 19vw;
+    height: 0.8vw;
+    background-color: #ff9100;
+    color: #ff9100;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -3.5vw;
+  }
+  #projects > div {
+    height: 117vw;
+    background-color: rgb(0, 52, 61);
+    padding: 2vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+  }
+
+  .img_details {
+    height: 22vw;
+    padding-top: 3vw;
+  }
+  .img_details > img {
+    width: 90%;
+    border-radius: 3vw;
+    border-top-left-radius: 0.3vw;
+  }
+  .img_details > img:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+  .img_details > div {
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+  }
+  .img_details > div > h3 {
+    text-align: left;
+    color: #ffffff;
+    margin-top: 1vw;
+    margin-left: 2vw;
+    background-image: linear-gradient(
+      to right,
+      #d37000 80%,
+      #d37000c5 85%,
+      #d37000c4 86%,
+      #d3700027 98%,
+      #d370000c 100%
+    );
+    padding: 0.5vw 1.5vw;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 28vw;
+    font-size: 4.2vw;
+  }
+
+  .img_details > div > p {
+    line-height: 4.4vw;
+    font-size: 3.8vw;
+    margin-left: 2vw;
+  }
+  .tech_stacks_live_btn {
+    margin-top: 60vw;
+    height: auto;
+  }
+  .tech_stacks {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
+  .tech_stacks > div {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    padding: 1vw;
+    border-radius: 30%;
+    border-top-left-radius: 5px;
+  }
+  .tech_stacks > div:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+  .tech_stacks > div > img {
+    margin-top: 2.4vw;
+    width: 14vw;
+  }
+  .gitBtn {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vw;
+  }
+  .gitBtn > a > button {
+    margin-top: 4vw;
+    margin-left: 2vw;
+    width: 24vw;
+    border-radius: 5px;
+    font-weight: 900;
+    font-size: 3vw;
+    padding: 0.6vw;
+    border: 2px solid #0163d4;
+    color: #ffffff;
+    background-color: #0076d6;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+  }
+  .gitBtn > a > button:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) and (min-width: 551px) {
+  #projects_div {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin-top: 4vw;
+    text-align: center;
+    padding-top: 1.6vw;
+    padding-bottom: 3vw;
+  }
+  #projects {
+    width: 90vw;
+    margin: auto;
+    margin-top: 3vw;
+    display: grid;
+    row-gap: 2vw;
+  }
+  #projects_div > h1 {
+    font-size: 4vw;
+    color: rgb(0, 61, 73);
+    
+  }
+  #projects_div > hr {
+    width: 13vw;
+    height: 0.5vw;
+    background-color: #ff9100;
+    color: #ff9100;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -2.4vw;
+  }
+  #projects > div {
+    height: 36vw;
+    background-color: rgb(0, 52, 61);
+    display: grid;
+    row-gap: 2vw;
+    padding: 2vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+  }
+
+  .img_details {
+    display: flex;
+    height: 22vw;
+  }
+  .img_details > img {
+    width: 55%;
+    border-radius: 3vw;
+    border-top-left-radius: 0.3vw;
+    margin-top: 2vw;
+  }
+  .img_details > img:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+  .img_details > div {
+    padding-left: 3vw;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+  }
+  .img_details > div > h3 {
+    text-align: left;
+    color: #ffffff;
+    margin-top: 0.6vw;
+    margin-bottom: -0.1vw;
+    background-image: linear-gradient(
+      to right,
+      #d37000 80%,
+      #d37000c5 85%,
+      #d37000c4 86%,
+      #d3700027 98%,
+      #d370000c 100%
+    );
+    padding: 0.5vw 1.5vw;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 23vw;
+    font-size: 3vw;
+  }
+
+  .img_details > div > p {
+    line-height: 2.6vw;
+    font-size: 2.15vw;
+  }
+  .tech_stacks_live_btn {
+    display: flex;
+    column-gap: 4vw;
+    margin: auto;
+  }
+  .tech_stacks {
+    width: 32vw;
+    display: flex;
+    column-gap: 1vw;
+    height: 7vw;
+    margin-top: -4vw;
+    margin-left: -1.5vw;
+  }
+  .tech_stacks > div {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.945);
+    text-align: center;
+    align-items: center;
+    padding: 1vw;
+    border-radius: 2.5vw;
+    border-top-left-radius: 0.4vw;
+  }
+  .tech_stacks > div:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+  .tech_stacks > div > img {
+    height: 100%;
+  }
+  .gitBtn {
+    width: 50%;
+    display: flex;
+    margin-left: 8vw;
+    margin-top: -5vw;
+  }
+  .gitBtn > a > button {
+    margin-top: 4vw;
+    margin-left: 2vw;
+    width: 16vw;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.9vw;
+    padding: 0.6vw;
+    border: 2px solid #0163d4;
+    color: #ffffff;
+    background-color: #0076d6;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+  }
+  .gitBtn > a > button:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 901px) {
+  #projects_div {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.37);
+    margin-top: 4vw;
+    text-align: center;
+    padding-top: 1.6vw;
+    padding-bottom: 3vw;
+  }
+  #projects {
+    width: 80vw;
+    margin: auto;
+    margin-top: 3vw;
+    display: grid;
+    row-gap: 2vw;
+  }
+  #projects_div > h1 {
+    font-size: 3.4vw;
+    color: rgb(0, 61, 73);
+    
+  }
+  #projects_div > hr {
+    width: 9.5vw;
+    height: 0.45vw;
+    background-color: #ff9100;
+    color: #ff9100;
+    border-radius: 30px;
+    border: transparent;
+    margin-top: -2vw;
+  }
+  #projects > div {
+    height: 32vw;
+    background-color: rgb(0, 52, 61);
+    display: grid;
+    row-gap: 2vw;
+    padding: 2vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+  }
+
+  .img_details {
+    display: flex;
+    height: 22vw;
+  }
+  .img_details > img {
+    width: 55%;
+    border-radius: 3vw;
+    border-top-left-radius: 0.3vw;
+  }
+  .img_details > img:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+  .img_details > div {
+    padding-left: 3vw;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: left;
+  }
+  .img_details > div > h3 {
+    text-align: left;
+    color: #ffffff;
+    margin-top: 0.6vw;
+    margin-bottom: -0.1vw;
+    background-image: linear-gradient(
+      to right,
+      #d37000 80%,
+      #d37000c5 85%,
+      #d37000c4 86%,
+      #d3700027 98%,
+      #d370000c 100%
+    );
+    padding: 0.5vw 1.5vw;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 22vw;
+    font-size: 2.2vw;
+  }
+
+  .img_details > div > p {
+    line-height: 2vw;
+    font-size: 1.7vw;
+  }
+  .tech_stacks_live_btn {
+    display: flex;
+    column-gap: 6vw;
+    margin: auto;
+  }
+  .tech_stacks {
+    width: 25vw;
+    display: flex;
+    column-gap: 1vw;
+    height: 7vw;
+    margin-top: -4vw;
+  }
+  .tech_stacks > div {
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.945);
+    text-align: center;
+    align-items: center;
+    padding: 1vw;
+    border-radius: 2.5vw;
+    border-top-left-radius: 0.4vw;
+  }
+  .tech_stacks > div:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+  .tech_stacks > div > img {
+    height: 100%;
+  }
+  .gitBtn {
+    width: 30%;
+    display: flex;
+    margin-left: 8vw;
+    margin-top: -5vw;
+  }
+  .gitBtn > a > button {
+    margin-top: 4vw;
+    margin-left: 2vw;
+    width: 12vw;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.6vw;
+    padding: 0.6vw;
+    border: 2px solid #0163d4;
+    color: #ffffff;
+    background-color: #0076d6;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+  }
+  .gitBtn > a > button:hover {
+    box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+}

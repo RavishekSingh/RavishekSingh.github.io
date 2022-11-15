@@ -1,0 +1,475 @@
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(50deg, #ffe969, #7ad4f5, #ff9c7e);
+  background: rgb(200, 46, 46);
+  background-size: 600% 100%;
+  animation: gradient 5s linear infinite;
+  animation-direction: alternate;
+}
+/* @keyframes gradient {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+} */
+
+a {
+  color: #000;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  border-bottom-left-radius: 1.6vw;
+  border-bottom-right-radius: 1.6vw;
+  overflow: hidden;
+  z-index: 90;
+}
+
+.header > a > img {
+  height: 6.6%;
+  border-radius: 20%;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+  cursor: pointer;
+  position: fixed;
+  margin-left: 2vw;
+  margin-top: 7px;
+  z-index: 100;
+}
+
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.header li a {
+  display: block;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.header li a:hover,
+.header .menu-btn:hover {
+  background-color: #f4f4f4;
+  color: #0064d6;
+}
+
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  height: 1px;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu {
+  max-height: 450px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+@media (min-width: 64em) {
+  .header li {
+    float: left;
+  }
+  .header li a {
+    padding: 20px 30px;
+  }
+  .header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 751px) {
+  #intro_ProfilePic {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 42vw 42vw;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 5.2vw;
+    background: rgb(0, 189, 185);
+    background: linear-gradient(
+      60deg,
+      rgba(0, 189, 185, 1) 52%,
+      rgba(255, 242, 128, 1) 53%,
+      rgba(2, 163, 214, 1) 54%
+    );
+  }
+
+  #intro {
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.945);
+    line-height: 3.5vw;
+    padding: 0.8vw;
+    padding-top: -8vw;
+    padding-left: 3vw;
+    padding-right: 2vw;
+    border-radius: 10px;
+    /* border-top-right-radius: 300px;
+    border-top-left-radius: 100px; */
+    /* border-bottom-right-radius: 150px; */
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 2px solid rgba(196, 196, 196, 0.171);
+    margin-top: 7vw;
+  }
+  #intro:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+  #intro > div {
+    display: flex;
+    margin-bottom: -1.8vw;
+    margin-left: 0.4vw;
+  }
+  #intro > div > img {
+    height: 7vw;
+    margin-top: 1.5vw;
+    margin-left: 2.5vw;
+  }
+  #intro > div > img:hover {
+    transform: scale(1.1);
+  }
+  #intro > div > h1 {
+    font-size: 5.8vw;
+  }
+  #intro > h1 {
+    font-size: 5vw;
+    line-height: 2vw;
+  }
+  #intro > h3 {
+    line-height: 3.4vw;
+    font-size: 2.7vw;
+    margin-top: -0.5vw;
+    font-weight: 900;
+    color: #002f64;
+  }
+  #ProPic {
+    margin-top: 7.5vw;
+  }
+  #ProPic > img {
+    width: 90%;
+    margin-top: -2vw;
+    margin-left: 7vw;
+  }
+  #ProPic > img:hover {
+    width: 92%;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.4s;
+  }
+  #CV {
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 13vw;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1vw;
+    padding: 1vw;
+    border: 1px solid #004fa860;
+    color: #ffffff;
+    background-color: #1565c2;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  #CV > a {
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: #ffffff;
+  }
+  #CV:hover {
+    width: 13.5vw;
+    box-shadow: rgba(21, 36, 10, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 501px) {
+  #intro_ProfilePic {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 47vw 45vw;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 5.2vw;
+    padding-left: 1.7vw;
+    background: rgb(0, 189, 185);
+    background: linear-gradient(
+      60deg,
+      rgba(0, 189, 185, 1) 52%,
+      rgba(255, 242, 128, 1) 53%,
+      rgba(2, 163, 214, 1) 54%
+    );
+  }
+
+  #intro {
+    height: auto;
+    font-size: 2vw;
+    background-color: rgba(255, 255, 255, 0.945);
+    line-height: 3.5vw;
+    padding: 0.8vw;
+    padding-top: -8vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    border-radius: 10px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 130px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 2px solid rgba(196, 196, 196, 0.171);
+    margin-top: 7vw;
+  }
+  #intro:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+  #intro > div {
+    display: flex;
+    margin-bottom: -1.8vw;
+    margin-left: 0.4vw;
+  }
+  #intro > div > img {
+    height: 9vw;
+    margin-top: 1.5vw;
+    margin-left: 2.5vw;
+  }
+  #intro > div > img:hover {
+    height: 10vw;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
+  }
+  #intro > div > h1 {
+    font-size: 8vw;
+  }
+  #intro > h1 {
+    font-size: 5.8vw;
+  }
+  #intro > h3 {
+    line-height: 4.4vw;
+    font-size: 3.2vw;
+    margin-top: -1vw;
+    font-weight: 900;
+    color: #002f64;
+  }
+  #ProPic {
+    margin-top: 7.5vw;
+  }
+  #ProPic > img {
+    width: 90%;
+    margin-top: -2vw;
+    margin-left: 7vw;
+  }
+  #ProPic > img:hover {
+    width: 92%;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s;
+  }
+  #CV {
+    margin-top: 2vw;
+    margin-left: 3vw;
+    width: 17vw;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 1.6vw;
+    padding: 1vw;
+    border: 0.6px solid #004fa860;
+    color: #ffffff;
+    background-color: #1565c2;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  #CV > a {
+    text-decoration: none;
+    
+    color: #ffffff;
+  }
+  #CV:hover {
+    width: 17.5vw;
+    font-size: 1.66vw;
+    box-shadow: rgba(21, 36, 10, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+}
+
+
+@media only screen and (max-width: 500px) and (min-width: 0px) {
+  #intro_ProfilePic {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 5.2vw;
+    background: rgb(0, 189, 185);
+    background: linear-gradient(
+      60deg,
+      rgba(0, 189, 185, 1) 52%,
+      rgba(255, 242, 128, 1) 53%,
+      rgba(2, 163, 214, 1) 54%
+    );
+  }
+  #intro {
+    width: 90%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    line-height: 4vw;
+    box-sizing: border-box;
+    padding-top: 4vw;
+    padding-left: 4vw;
+    padding-right: 3vw;
+    border-radius: 10px;
+    border-top-right-radius: 300px;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 130px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border: 2px solid rgba(196, 196, 196, 0.171);
+    margin-top: 7vw;
+  }
+  #intro:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+  }
+  #intro > div {
+    display: flex;
+    margin-bottom: -1.8vw;
+    margin-left: 0.4vw;
+  }
+  #intro > div > img {
+    height: 18vw;
+    margin-top: 1.5vw;
+    margin-left: 2.5vw;
+  }
+  #intro > div > img:hover {
+    height: 20vw;
+    transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
+  }
+  #intro > div > h1 {
+    font-size: 13vw;
+  }
+  #intro > h1 {
+    font-size: 10vw;
+  }
+  #intro > h3 {
+    line-height: 7.4vw;
+    font-size: 5.7vw;
+    margin-top: 0vw;
+    font-weight: 900;
+    color: #002f64;
+  }
+  #ProPic {
+    margin-top: 7.5vw;
+  }
+  #ProPic > img {
+    width: 90%;
+    margin-top: -2vw;
+    margin-left: 7vw;
+  }
+  #ProPic > img:hover {
+    width: 92%;
+    transition: cubic-bezier(0.47, 0, 0.745, 0.715) 0.45s;
+  }
+  #CV {
+    margin-top: 4vw;
+    margin-left: 5vw;
+    width: 32vw;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 2.8vw;
+    padding: 2vw;
+    border: 1px solid #004fa860;
+    color: #ffffff;
+    background-color: #1565c2;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  #CV > a {
+    text-decoration: none;
+    
+    color: #ffffff;
+  }
+  #CV:hover {
+    width: 34.5vw;
+    font-size: 3vw;
+    box-shadow: rgba(21, 36, 10, 0.35) 0px 5px 15px;
+    transition: cubic-bezier(0.23, 1, 0.32, 1) 0.2s;
+  }
+}
+
+
