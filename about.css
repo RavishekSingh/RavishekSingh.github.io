@@ -7,13 +7,13 @@
     margin-top: 6vw;
     padding: 4vw;
     padding-bottom: 5.5vw;
-    border-radius: 15%;
-    border-top-left-radius: 40%;
-    border-bottom-right-radius: 25%;
-    border-top-right-radius: 10px;
+    /* border-radius: 15%; */
+    /* border-top-left-radius: 40%;
+    border-bottom-right-radius: 25%; */
+    /* border-top-right-radius: 10px; */
     background-color: rgba(255, 255, 255, 0.925);
     color: rgb(0, 54, 0);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
   }
   #about:hover {
@@ -56,13 +56,13 @@
     margin-top: 6vw;
     padding: 4vw;
     padding-bottom: 4vw;
-    border-radius: 15%;
+    /* border-radius: 15%;
     border-top-left-radius: 40%;
     border-bottom-right-radius: 25%;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 10px; */
     background-color: rgba(255, 255, 255, 0.925);
     color: rgb(0, 54, 0);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
   }
   #about:hover {
@@ -105,13 +105,13 @@
     margin-top: 6vw;
     padding: 3vw;
     padding-bottom: 3.4vw;
-    border-radius: 15%;
-    border-top-left-radius: 40%;
+    /* border-radius: 15%; */
+    /* border-top-left-radius: 40%;
     border-bottom-right-radius: 25%;
-    border-top-right-radius: 10px;
+    border-top-right-radius: 10px; */
     background-color: rgba(255, 255, 255, 0.925);
     color: rgb(0, 54, 0);
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     transition: cubic-bezier(0.55, 0.055, 0.675, 0.19) 0.5s;
   }
   #about:hover {
