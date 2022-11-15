@@ -43,10 +43,10 @@
     box-sizing: border-box;
     background-color: #00263a;
     color: rgb(255, 255, 255);
-    border-bottom-left-radius: 20%;
+    /* border-bottom-left-radius: 20%;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    border-top-right-radius: 6px;
+    border-top-right-radius: 6px; */
   }
 
   #tech_skill > div:hover {
@@ -163,10 +163,10 @@
     box-sizing: border-box;
     background-color: #00263a;
     color: rgb(255, 255, 255);
-    border-bottom-left-radius: 20%;
+    /* border-bottom-left-radius: 20%;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    border-top-right-radius: 6px;
+    border-top-right-radius: 6px; */
   }
 
   #tech_skill > div:hover {
