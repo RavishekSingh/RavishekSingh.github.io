@@ -29,7 +29,7 @@
   #about hr {
     width: 14vw;
     height: 0.8vw;
-    background-color:  rgb(44, 89, 202);
+      
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
@@ -78,7 +78,7 @@
   #about hr {
     width: 9.5vw;
     height: 0.37vw;
-    background-color:  rgb(44, 89, 202);
+    /* background-color:  rgb(44, 89, 202); */
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
@@ -126,7 +126,7 @@
   #about hr {
     width: 7vw;
     height: 0.37vw;
-    background-color:  rgb(44, 89, 202);
+    /* background-color:  rgb(44, 89, 202); */
     color:  rgb(157, 181, 243);
     border-radius: 30px;
     border: transparent;

@@ -22,7 +22,7 @@
   #projects_div > hr {
     width: 19vw;
     height: 0.8vw;
-    background-color: #ff9100;
+    /* background-color: #ff9100; */
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
@@ -167,7 +167,7 @@
   #projects_div > hr {
     width: 13vw;
     height: 0.5vw;
-    background-color: #ff9100;
+    /* background-color: #ff9100; */
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
@@ -316,7 +316,7 @@
   #projects_div > hr {
     width: 9.5vw;
     height: 0.45vw;
-    background-color: #ff9100;
+    /* background-color: #ff9100; */
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
