@@ -219,15 +219,16 @@ a {
     transform: scale(1.1);
   }
   #intro > div > h1 {
-    font-size: 5.8vw;
+    font-size: 3vw; 
+    
   }
   #intro > h1 {
-    font-size: 5vw;
+    font-size: 3vw;
     line-height: 2vw;
   }
   #intro > h3 {
     line-height: 3.4vw;
-    font-size: 2.7vw;
+    font-size: 2.0vw;
     margin-top: -0.5vw;
     font-weight: 900;
     color: #002f64;
@@ -325,14 +326,14 @@ a {
     transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
   }
   #intro > div > h1 {
-    font-size: 8vw;
+    font-size: 6vw;
   }
   #intro > h1 {
-    font-size: 5.8vw;
+    font-size: 3vw;
   }
   #intro > h3 {
     line-height: 4.4vw;
-    font-size: 3.2vw;
+    font-size: 3vw;
     margin-top: -1vw;
     font-weight: 900;
     color: #002f64;
@@ -427,14 +428,14 @@ a {
     transition: cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s;
   }
   #intro > div > h1 {
-    font-size: 13vw;
+    font-size: 8vw;
   }
   #intro > h1 {
-    font-size: 10vw;
+    font-size: 5vw;
   }
   #intro > h3 {
     line-height: 7.4vw;
-    font-size: 5.7vw;
+    font-size: 4vw;
     margin-top: 0vw;
     font-weight: 900;
     color: #002f64;
