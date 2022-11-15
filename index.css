@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   
-  background:  rgb(157, 181, 243);
+  /* background:  rgb(157, 181, 243); */
   background-size: 600% 100%;
   animation: gradient 5s linear infinite;
   animation-direction: alternate;
