@@ -19,7 +19,7 @@
     height: 0.8vw;
     background-color: #d37800;
     color: #ff9100;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     border: transparent;
     margin-top: -4vw;
   }
@@ -261,7 +261,7 @@
     height: 0.35vw;
     background-color: #ff9100;
     color: #ff9100;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     border: transparent;
     margin-top: -2.8vw;
   }
@@ -285,10 +285,10 @@
     box-sizing: border-box;
     background-color: #00263a;
     color: rgb(255, 255, 255);
-    border-bottom-left-radius: 20%;
+    /* border-bottom-left-radius: 20%;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    border-top-right-radius: 6px;
+    border-top-right-radius: 6px; */
   }
 
   #tech_skill > div:hover {
@@ -337,12 +337,12 @@
     background-color: #00263b;
     color: rgb(255, 255, 255);
     padding: 1.2vw;
-    border-bottom-left-radius: 20%;
+    /* border-bottom-left-radius: 20%;
     border-top-left-radius: 25%;
     border-bottom-right-radius: 25%;
-    border-top-right-radius: 6px;
+    border-top-right-radius: 6px; */
     font-size: 1.6vw;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     margin-top: -0.1vw;
   }
   #soft_skill h3:hover {
