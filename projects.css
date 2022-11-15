@@ -97,7 +97,7 @@
     align-items: center;
     padding: 1vw;
     border-radius: 30%;
-    border-top-left-radius: 5px;
+    /* border-top-left-radius: 5px; */
   }
   .tech_stacks > div:hover {
     box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
@@ -248,7 +248,7 @@
     align-items: center;
     padding: 1vw;
     border-radius: 2.5vw;
-    border-top-left-radius: 0.4vw;
+    /* border-top-left-radius: 0.4vw; */
   }
   .tech_stacks > div:hover {
     box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
@@ -395,7 +395,7 @@
     align-items: center;
     padding: 1vw;
     border-radius: 2.5vw;
-    border-top-left-radius: 0.4vw;
+    /* border-top-left-radius: 0.4vw; */
   }
   .tech_stacks > div:hover {
     box-shadow: rgba(185, 185, 185, 0.35) 0px 5px 15px;
