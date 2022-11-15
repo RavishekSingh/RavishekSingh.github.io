@@ -197,7 +197,7 @@ a {
     /* border-top-right-radius: 300px;
     border-top-left-radius: 100px; */
     /* border-bottom-right-radius: 150px; */
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
     border: 2px solid rgba(196, 196, 196, 0.171);
     margin-top: 7vw;
   }
@@ -280,29 +280,29 @@ a {
     padding-top: 30px;
     padding-bottom: 5.2vw;
     padding-left: 1.7vw;
-    background: rgb(0, 189, 185);
-    background: linear-gradient(
+    background: rgb(157, 181, 243);
+    /* background: linear-gradient(
       60deg,
       rgba(0, 189, 185, 1) 52%,
       rgba(255, 242, 128, 1) 53%,
       rgba(2, 163, 214, 1) 54%
-    );
+    ); */
   }
 
   #intro {
     height: auto;
     font-size: 2vw;
-    background-color: rgba(255, 255, 255, 0.945);
+    /* background-color: rgba(255, 255, 255, 0.945); */
     line-height: 3.5vw;
     padding: 0.8vw;
     padding-top: -8vw;
     padding-left: 3vw;
     padding-right: 3vw;
     border-radius: 10px;
-    border-top-right-radius: 300px;
+    /* border-top-right-radius: 300px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 130px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
     border: 2px solid rgba(196, 196, 196, 0.171);
     margin-top: 7vw;
   }
@@ -383,28 +383,28 @@ a {
     margin: auto;
     padding-top: 50px;
     padding-bottom: 5.2vw;
-    background: rgb(0, 189, 185);
-    background: linear-gradient(
+    background: rgb(157, 181, 243);
+    /* background: linear-gradient(
       60deg,
       rgba(0, 189, 185, 1) 52%,
       rgba(255, 242, 128, 1) 53%,
       rgba(2, 163, 214, 1) 54%
-    );
+    ); */
   }
   #intro {
     width: 90%;
     margin: auto;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     line-height: 4vw;
     box-sizing: border-box;
     padding-top: 4vw;
     padding-left: 4vw;
     padding-right: 3vw;
     border-radius: 10px;
-    border-top-right-radius: 300px;
+    /* border-top-right-radius: 300px;
     border-top-left-radius: 100px;
     border-bottom-right-radius: 130px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
     border: 2px solid rgba(196, 196, 196, 0.171);
     margin-top: 7vw;
   }
