@@ -15,7 +15,7 @@
   #contact > hr {
     width: 13vw;
     height: 0.45vw;
-    background-color: #ffa600;
+    background-color:  rgb(44, 89, 202);
     color: #ffa600;
     border-radius: 30px;
     border: transparent;
@@ -128,7 +128,7 @@
   #contact > hr {
     width: 17vw;
     height: 0.6vw;
-    background-color: #ffa600;
+    background-color:  rgb(44, 89, 202);
     color: #ffa600;
     border-radius: 30px;
     border: transparent;
@@ -244,7 +244,7 @@
   #contact > hr {
     width: 25vw;
     height: 0.6vw;
-    background-color: #ffa600;
+    background-color:  rgb(44, 89, 202);
     color: #ffa600;
     border-radius: 30px;
     border: transparent;

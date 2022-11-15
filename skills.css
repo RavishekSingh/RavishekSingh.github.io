@@ -17,7 +17,7 @@
   #skills hr {
     width: 12vw;
     height: 0.8vw;
-    background-color: #d37800;
+    background-color:  rgb(44, 89, 202);
     color: #ff9100;
     /* border-radius: 30px; */
     border: transparent;
@@ -137,7 +137,7 @@
   #skills hr {
     width: 8vw;
     height: 0.4vw;
-    background-color: #d37800;
+    background-color:  rgb(44, 89, 202);
     color: #ff9100;
     border-radius: 30px;
     border: transparent;
@@ -259,7 +259,7 @@
   #skills hr {
     width: 6.7vw;
     height: 0.35vw;
-    background-color: #ff9100;
+    background-color:  rgb(44, 89, 202);
     color: #ff9100;
     /* border-radius: 30px; */
     border: transparent;
